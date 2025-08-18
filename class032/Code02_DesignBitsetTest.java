@@ -2,7 +2,6 @@ package class032;
 
 public class Code02_DesignBitsetTest {
 
-
     public static class Bitset {
         public static int[] bitset;
         public static int size;
