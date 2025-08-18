@@ -2,7 +2,8 @@ package class032;
 
 public class Code02_DesignBitsetTest {
 
-    public static class Bitset {
+
+    public class Bitset {
         public static int[] bitset;
         public static int size;
         public static int notExist;
@@ -12,8 +13,8 @@ public class Code02_DesignBitsetTest {
         public Bitset(int n) {
             bitset = new int[(n + 31) / 32];
             size = n;
-            notExist = n;//存在的数量
-            exist = 0;//不存在的数量
+            notExist = n;//不存在的数量
+            exist = 0;//存在的数量
             reverse = false;
         }
 
@@ -85,4 +86,5 @@ public class Code02_DesignBitsetTest {
             return sb.toString();
         }
     }
+
 }
