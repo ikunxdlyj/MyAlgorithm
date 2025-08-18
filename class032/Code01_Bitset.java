@@ -18,7 +18,6 @@ public class Code01_Bitset {
             set[num / 32] &= ~(1 << (num % 32));
         }
 
-
         public void reverse(int num) {
             set[num / 32] ^= (1 << (num % 32));
         }
