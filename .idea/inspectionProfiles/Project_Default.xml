@@ -9,5 +9,6 @@
         <language minSize="62" name="Java" />
       </Languages>
     </inspection_tool>
+    <inspection_tool class="UsePropertyAccessSyntax" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   </profile>
 </component>
